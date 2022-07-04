@@ -1,0 +1,94 @@
+Log created: 2022-07-02 09:00:17
+Type: backup
+[2022-07-02 09:00:20][notice]Start backing up.
+[2022-07-02 09:00:20][notice]server info fcgi:On max execution time: 180 wp version:6.0 php version:7.4.1 db version:8.0.16 php ini:safe_mode: memory_limit:256M memory_get_usage:13,80 Mo memory_get_peak_usage:13,89 Mo extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-07-02 09:00:20][notice]Prepare to backup backup_db files.
+[2022-07-02 09:00:20][notice]Start exporting database.
+[2022-07-02 09:00:20][notice]max_allowed_packet less than 32M :16,00 Mo
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_commentmeta
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_comments
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_bans
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_dashboard_events
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_distributed_storage
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_fingerprints
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_geolocation_cache
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_lockouts
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_logs
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_mutexes
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_opaque_tokens
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_temp
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_itsec_user_groups
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_links
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_options
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_postmeta
+[2022-07-02 09:00:20][notice]Preparing to dump table wp_posts
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_statichtmloutput_crawl_log
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_statichtmloutput_deploy_cache
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_statichtmloutput_deploy_queue
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_statichtmloutput_exclusions
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_statichtmloutput_log
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_statichtmloutput_urls
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_term_relationships
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_term_taxonomy
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_termmeta
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_terms
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_usermeta
+[2022-07-02 09:00:23][notice]Preparing to dump table wp_users
+[2022-07-02 09:00:23][notice]Exporting database finished.
+[2022-07-02 09:00:23][notice]Start compressing backup_db
+[2022-07-02 09:00:23][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_db.zip
+[2022-07-02 09:00:25][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_db.zip, filesize: 7,67 Mo
+[2022-07-02 09:00:25][notice]Compressing backup_db completed
+[2022-07-02 09:00:25][notice]Backing up backup_db completed.
+[2022-07-02 09:00:26][notice]Prepare to backup backup_themes files.
+[2022-07-02 09:00:26][notice]File number: 730
+[2022-07-02 09:00:26][notice]Start compressing backup_themes
+[2022-07-02 09:00:26][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_themes.zip
+[2022-07-02 09:00:36][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_themes.zip, filesize: 16,82 Mo
+[2022-07-02 09:00:36][notice]Compressing backup_themes completed
+[2022-07-02 09:00:36][notice]Backing up backup_themes completed.
+[2022-07-02 09:00:37][notice]Prepare to backup backup_plugin files.
+[2022-07-02 09:00:37][notice]File number: 3178
+[2022-07-02 09:00:37][notice]Start compressing backup_plugin
+[2022-07-02 09:00:41][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_plugin.zip
+[2022-07-02 09:00:55][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_plugin.zip, filesize: 19,02 Mo
+[2022-07-02 09:00:55][notice]Compressing backup_plugin completed
+[2022-07-02 09:00:55][notice]Backing up backup_plugin completed.
+[2022-07-02 09:00:56][notice]Prepare to backup backup_uploads files.
+[2022-07-02 09:00:56][notice]File number: 238
+[2022-07-02 09:00:56][notice]Start compressing backup_uploads
+[2022-07-02 09:00:56][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_uploads.zip
+[2022-07-02 09:00:59][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_uploads.zip, filesize: 166,40 Mo
+[2022-07-02 09:00:59][notice]Compressing backup_uploads completed
+[2022-07-02 09:00:59][notice]Backing up backup_uploads completed.
+[2022-07-02 09:00:59][notice]Prepare to backup backup_content files.
+[2022-07-02 09:00:59][notice]File number: 176
+[2022-07-02 09:00:59][notice]Start compressing backup_content
+[2022-07-02 09:00:59][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_content.zip
+[2022-07-02 09:01:00][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_content.zip, filesize: 3,56 Mo
+[2022-07-02 09:01:00][notice]Compressing backup_content completed
+[2022-07-02 09:01:00][notice]Backing up backup_content completed.
+[2022-07-02 09:01:01][notice]Prepare to backup backup_core files.
+[2022-07-02 09:01:01][notice]File number: 2478
+[2022-07-02 09:01:01][notice]Start compressing backup_core
+[2022-07-02 09:01:04][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_core.zip
+[2022-07-02 09:01:38][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_core.zip, filesize: 47,57 Mo
+[2022-07-02 09:01:38][notice]Compressing backup_core completed
+[2022-07-02 09:01:38][notice]Backing up backup_core completed.
+[2022-07-02 09:01:38][notice]Prepare to backup backup_merge files.
+[2022-07-02 09:01:38][notice]File number: 6
+[2022-07-02 09:01:38][notice]Start compressing backup_merge
+[2022-07-02 09:01:38][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_all.part001.zip
+[2022-07-02 09:01:51][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_all.part001.zip, filesize: 161,85 Mo
+[2022-07-02 09:01:51][notice]Cleaned up file, filename: C:\Users\Dieuleveut Nsuami\Local Sites\delc\app\public/wp-content\wpvividbackups\delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_uploads.zip
+[2022-07-02 09:01:51][notice]Prepare to zip files. file: delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_all.part002.zip
+[2022-07-02 09:01:57][notice]Adding zip files completed.delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_all.part002.zip, filesize: 35,54 Mo
+[2022-07-02 09:01:57][notice]Cleaned up file, filename: C:\Users\Dieuleveut Nsuami\Local Sites\delc\app\public/wp-content\wpvividbackups\delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_core.zip
+[2022-07-02 09:01:57][notice]Cleaned up file, filename: C:\Users\Dieuleveut Nsuami\Local Sites\delc\app\public/wp-content\wpvividbackups\delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_plugin.zip
+[2022-07-02 09:01:57][notice]Cleaned up file, filename: C:\Users\Dieuleveut Nsuami\Local Sites\delc\app\public/wp-content\wpvividbackups\delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_themes.zip
+[2022-07-02 09:01:57][notice]Cleaned up file, filename: C:\Users\Dieuleveut Nsuami\Local Sites\delc\app\public/wp-content\wpvividbackups\delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_db.zip
+[2022-07-02 09:01:57][notice]Cleaned up file, filename: C:\Users\Dieuleveut Nsuami\Local Sites\delc\app\public/wp-content\wpvividbackups\delv.local_wpvivid-62bffb11dc6ae_2022-07-02-09-00_backup_content.zip
+[2022-07-02 09:01:57][notice]Compressing backup_merge completed
+[2022-07-02 09:01:57][notice]Backing up backup_merge completed.
+[2022-07-02 09:01:57][notice]Backup completed.
+[2022-07-02 09:01:57][notice]Backup succeeded.
